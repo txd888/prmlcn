@@ -1,6 +1,3 @@
 {
-    "plugins": [
-        "mathjax",
-        "pdf-styling"
-    ]
+   "plugins": ["mathjax"]
 }
