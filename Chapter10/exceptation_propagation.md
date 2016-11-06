@@ -146,7 +146,7 @@ $$
 1. 初始化所有的近似因子$$ \tilde{f}_i(\theta) $$。    
 2. 通过设置
 $$
-q(\thea) \propto \prod\limits_i\tilde{f}_i(\theta) \tag{10.204}
+q(\theta) \propto \prod\limits_i\tilde{f}_i(\theta) \tag{10.204}
 $$
 初始化后验近似。     
 3. 直到收敛：     
