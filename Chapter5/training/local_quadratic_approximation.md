@@ -15,7 +15,7 @@ $$
 且Hessian矩阵$$ H = \nabla\nabla E $$具元素
 
 $$
-(H)_{ij} \equiv \left.\frac{\parital E}{\partial w_i\partial w_j}\vphantom{\Big|}\right|_{w=\hat{w}} \tag{5.30}
+(H)_{ij} \equiv \left.\frac{\partial E}{\partial w_i\partial w_j}\vphantom{\Big|}\right|_{w=\hat{w}} \tag{5.30}
 $$
 
 根据式（5.28）梯度对应的局部近似由
