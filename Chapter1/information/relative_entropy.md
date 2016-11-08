@@ -56,7 +56,7 @@ $$
 $$，其中$$ n = 1,...,N $$。那么，关于$$ p(x) $$的期望就可以通过这些点的有限加和，使用公式(1.35)来近似，即
 
 $$
-KL(p||q) \simeq \sum\limits_{n=1}^{N}\{-\ln q(x_n|\theta) + \ln p(x_n)\} \tag{1.119}
+KL(p||q) \simeq \frac{1}{N}\sum\limits_{n=1}^{N}\{-\ln q(x_n|\theta) + \ln p(x_n)\} \tag{1.119}
 $$
 
 右侧的第二项与$$ \theta $$无关，第一项是使用训练集估计的分布$$ q(x|\theta) $$下的$$ \theta $$的负对数似然函数。因此我们看到，最小化Kullback-Leibler散度等价于最大化似然函数。    
